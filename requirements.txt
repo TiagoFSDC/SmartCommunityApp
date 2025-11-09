@@ -1,0 +1,7 @@
+# Arquivo de dependências Python 
+django
+djangorestframework
+djangorestframework-simplejwt  # Para autenticação JWTdjango-gis                  
+# Para o PostGIS (Geoprocessamento)psycopg2-binary              
+# Driver do banco de dados PostgreSQLfirebase-admin             
+ # Para notificações Push (FCM)
