@@ -1,7 +1,8 @@
-# Arquivo de dependências Python 
-django
-djangorestframework
-djangorestframework-simplejwt  # Para autenticação JWTdjango-gis                  
-# Para o PostGIS (Geoprocessamento)psycopg2-binary              
-# Driver do banco de dados PostgreSQLfirebase-admin             
- # Para notificações Push (FCM)
+Dependências do Microserviço de Geo
+
+fastapi             # O framework da API
+uvicorn[standard]   # O servidor ASGI
+psycopg2-binary     # Driver do PostgreSQL
+sqlalchemy          # ORM para se conectar ao banco
+geoalchemy2         # Extensão SQLAlchemy para tipos de dados GIS (PostGIS)
+python-dotenv       # Para ler variáveis de ambiente (ex: .env)
